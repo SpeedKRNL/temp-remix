@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "sayHelloWorld",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/OasisSupbro.sol": "OasisSupbro"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@oasisprotocol/sapphire-contracts/contracts/Sapphire.sol": {
+			"keccak256": "0x81a0aa5766f7c48ea799114f44e902b2eb11f21808db23d56b6ca9edd48b8f59",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://a94bd0c5263e98788d38bf7b6c24781dac3df4d5cb14045f70d14e208719c292",
+				"dweb:/ipfs/QmZKEwnG9a9uPbgWCPVcbW7WGTy53Su6P1DTV95goPs4yU"
+			]
+		},
+		"contracts/OasisSupbro.sol": {
+			"keccak256": "0x48f6849a7fe43a402f3fd6207d448fd146aa1b1f52e50514783171e04e7704c2",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://2b63eb511869012d7349a247ce3d961ebfec6b2f59ed250a92ec498c0b57f8f9",
+				"dweb:/ipfs/QmXSqoVbcYc3si5mgMowjUZRe3eGEXSYDFZiWwhYe7AW44"
+			]
+		}
+	},
+	"version": 1
+}
